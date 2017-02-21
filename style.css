@@ -1,0 +1,58 @@
+* {
+  font-family: 'Barrio', cursive;
+}
+
+body {
+  background-color: rgba(240, 228, 71, 0.94);
+}
+
+h3 {
+  text-align: center;
+  font-size: 35pt;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.big {
+  font-size: 35pt;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#text-display {
+  border-style: solid;
+  background-color: white;
+}
+
+#text-display li {
+  margin-left: 100px;
+}
+
+#button-wrapper  {
+  text-align: center;
+}
+
+#button-wrapper button {
+  margin: 15px;
+  font-size: 30px;
+  padding: 10 20 10 20;
+  border-radius: 28px;
+}
+
+button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}

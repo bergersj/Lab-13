@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 13 - Stewie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+  </head>
+  <body ng-app="myModule" ng-controller="stewieController">
+
+  <h3>Stewie Word Generator</h3>
+
+  <div id="button-wrapper">
+    <button ng-click="wordClick()">Words</button>
+    <button ng-click="phraseClick()">Stewie Phrases</button>
+    <button ng-click="styleClick()">Word with Decoration</button>
+    <button ng-click="phraseStyleClick()">Phrases with Decoration</button>
+  </div>
+
+  <div id="text-display">
+    <ul>
+      <!-- <li ng-repeat="word in wordDisplay" class="ng-class : {{word.class}}">{{word.text}}</li> -->
+      <li ng-repeat="word in wordDisplay track by $index" ng-class = "word.class"> {{ word.text }} </li>
+    </ul>
+    <img src="stewiepic.jpg" alt="stewie pic">
+  </div>
+
+
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
