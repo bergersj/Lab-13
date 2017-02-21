@@ -44,7 +44,7 @@ app.controller("stewieController", function($scope, $interval){
     });
   };
 
- // $interval($scope.styleClick(), 1000);
+  // var interval = function(){$interval($scope.styleClick(), 1000)};
 
 
 });
